@@ -14,6 +14,7 @@
 		EA99A30D1BF26FD400AA9FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA99A30B1BF26FD400AA9FE0 /* LaunchScreen.storyboard */; };
 		EA99A3181BF26FD400AA9FE0 /* TemperatureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99A3171BF26FD400AA9FE0 /* TemperatureConverterTests.swift */; };
 		EA99A3231BF26FD400AA9FE0 /* TemperatureConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99A3221BF26FD400AA9FE0 /* TemperatureConverterUITests.swift */; };
+		EA99A3351BF277A800AA9FE0 /* TemperatureCelcius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99A3341BF277A800AA9FE0 /* TemperatureCelcius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EA99A31E1BF26FD400AA9FE0 /* TemperatureConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA99A3221BF26FD400AA9FE0 /* TemperatureConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterUITests.swift; sourceTree = "<group>"; };
 		EA99A3241BF26FD400AA9FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA99A3341BF277A800AA9FE0 /* TemperatureCelcius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureCelcius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		EA99A3011BF26FD400AA9FE0 /* TemperatureConverter */ = {
 			isa = PBXGroup;
 			children = (
+				EA99A3341BF277A800AA9FE0 /* TemperatureCelcius.swift */,
 				EA99A3021BF26FD400AA9FE0 /* AppDelegate.swift */,
 				EA99A3041BF26FD400AA9FE0 /* ViewController.swift */,
 				EA99A3061BF26FD400AA9FE0 /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA99A3351BF277A800AA9FE0 /* TemperatureCelcius.swift in Sources */,
 				EA99A3051BF26FD400AA9FE0 /* ViewController.swift in Sources */,
 				EA99A3031BF26FD400AA9FE0 /* AppDelegate.swift in Sources */,
 			);
